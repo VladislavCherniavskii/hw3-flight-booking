@@ -1,7 +1,8 @@
 # Flight Booking System (gRPC + Redis)
 
 ## ER-диаграмма
-Схема данных в 3NF: [docs/er_diagram.md](docs/er_diagram.md)
+Схема данных в 3NF:
+![ER-диаграмма](docs/er_diagram.png)
 
 ## Архитектура
 - **Booking Service (REST)**: Управление бронированиями, PostgreSQL, отказоустойчивость (Retry, Circuit Breaker).
